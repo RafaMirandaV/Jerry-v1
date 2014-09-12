@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Login</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,300,700,400,600' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/index.css">	
+</head>
+<body>
+    <section id="contenedor">
+   		<article id="Bienvenida">
+   			<h3>¿Listo para entrar?</h3>
+       		<h5>Basta con que ingreses tus datos.</h5>
+       	</article>	        
+	    <article id="inputs">
+		   	<form action="log.jsp" id="Formulario" method='post' accept-charset='UTF-8'>
+				<input type='hidden' name='submitted' id='submitted' value='1'/>
+				<div class='container'>
+					<input type='text' name='UsuarioText' id='UsuarioText' value='' maxlength="50" size="30" placeholder="Usuario"/>
+				</div>			
+				<div class='container'>
+					<input type='password' name='PasswordText' id='PasswordText' maxlength="50" size="30" placeholder="Contraseña" />
+				</div>			
+				<div class='container'>
+					<input type='submit' name='EntrarButton' value='Entrar' />
+				</div>
+			</form>
+	    </article>
+	    <article id="abajo">
+		    <p>¿No tienes cuenta? <a href="registrar.html">Crea una.</a></p>
+	    </article>
+	</section>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-widht, minimum-scale=1, maximum-scale=1" />
+	<title>Registro</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,300,700,400,600' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/index.css">	
+</head>
+<body>
+    <section id="contenedor">
+   		<article id="Bienvenida">
+   			<h3>Vamos, regístrate</h3>
+       		<h5>Confía tus datos que están seguros</h5>
+       	</article>	        
+	    <article id="inputs">
+		   	<form id='login' action="Crear.jsp" method='post' accept-charset='UTF-8'>
+				<input type='hidden' name='submitted' id='submitted' value='1'/>
+				<div class='container'>
+					<input type='text' name='nombreText' id='nombreText' value='' maxlength="50" size="30" placeholder="Nombre"/>
+				</div>
+				<div class='container'>
+					<input type='text' name='apellidopaText' id='apellidopaText' value='' maxlength="50" size="30" placeholder="Apellido Paterno"/>
+				</div>	
+				<div class='container'>
+					<input type='text' name='apellidomaText' id='apellidomaText' value='' maxlength="50" size="30" placeholder="Apellido Materno"/>
+				</div>			
+                                <div class='container'>
+					<input type='text' name='correoText' id='correoText' value='' maxlength="50" size="30" placeholder="Correo"/>
+				</div>
+				<div class='container'>
+					<input type='password' name='contraseniaText' id='contraseniaText' maxlength="50" size="30" placeholder="Contraseña" />
+				</div>			
+				<div class='container'>
+					<input type='submit' name='EntrarButton' value='Entrar' />
+				</div>
+			</form>
+	    </article>
+	    <article id="abajo">
+		    <p>¿Ya tienes cuenta? <a href="index.html">Entra.</a></p>
+	    </article>
+	</section>
+</body>
+</html>
